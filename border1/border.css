@@ -1,0 +1,45 @@
+.container{
+    margin:0;
+    padding: 0;
+    background-color: teal;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    padding: 12pt;
+    margin: 0 30% ;
+    background-color: thistle;
+    text-align: center;
+    justify-content: first baseline;
+}
+
+.input{
+    width: 5%;
+    height: 5%;
+    position: relative;
+}
+#inputs1{
+    position: fixed;
+    left: 20%;
+    top:30%;
+}
+#inputs2{
+    position: fixed;
+    left: 80%;
+    top:30%;
+}
+#inputs3{
+    position: fixed;
+    left: 20%;
+    top:70%;
+}
+#inputs4{
+    position: fixed;
+    left: 80%;
+    top:70%;
+}
+#textArea{
+    position: relative;
+    margin-left: 39.5%;
+    margin-top:7%
+}
